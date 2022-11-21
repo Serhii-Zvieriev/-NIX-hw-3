@@ -1,0 +1,31 @@
+.container {
+  width: 1326px;
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+}
+
+.nav {
+  margin-left: 526px;
+  height: 80px;
+}
+
+.navLink {
+  font-family: "Open Sans";
+  font-size: 16.7px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.hero {
+  position: relative;
+  left: 0;
+  top: -80px;
+  z-index: 1;
+  height: 1056px;
+  background-image: url(./pictures/header_background_5063.png);
+}
