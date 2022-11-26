@@ -1,24 +1,33 @@
-.container {
-  width: 1326px;
+@font-face {
+  font-family: "Reey";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/Reey-Regular.otf);
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   z-index: 2;
+
+  margin-left: auto;
 }
 
-.nav {
-  margin-left: 526px;
-  height: 80px;
+.inputSearch {
+  border-radius: 20px;
 }
 
-.navLink {
+header ul li {
+  margin-right: 2.5rem;
+}
+
+nav a {
   font-family: "Open Sans";
   font-size: 16.7px;
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  color: #ffffff;
 }
 
 .hero {
@@ -28,4 +37,126 @@
   z-index: 1;
   height: 1056px;
   background-image: url(./pictures/header_background_5063.png);
+}
+
+.logo {
+  position: relative;
+  top: 16%;
+  left: 8%;
+  width: 136px;
+  height: 109px;
+  background-image: url(./pictures/5060.png);
+  background-repeat: no-repeat;
+}
+
+.name {
+  position: relative;
+  top: 26%;
+  left: 8%;
+  font-family: "Reey";
+  font-size: 92px;
+  line-height: 1.2;
+  text-shadow: 0px 5px 5px rgba(84, 82, 79, 0.21);
+  color: #ffffff;
+}
+
+.desc {
+  position: relative;
+  top: 36%;
+  left: 8%;
+
+  font-family: "Open Sans";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.btn_RM {
+  position: relative;
+  top: 42%;
+  left: 8%;
+
+  font-family: "Open Sans";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #2e3034;
+
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: unset;
+}
+
+.desc_one {
+  position: relative;
+  top: 44%;
+  left: 8%;
+
+  font-family: "Open Sans";
+  font-size: 20.9px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.pic1 {
+  position: relative;
+  top: -20%;
+  left: 56%;
+
+  width: 632px;
+  height: 620px;
+
+  background-image: url(./pictures/5066.png);
+  background-repeat: no-repeat;
+}
+
+.pic2 {
+  position: relative;
+  top: -34%;
+  left: 48%;
+
+  width: 293px;
+  height: 290px;
+
+  background-image: url(./pictures/5065.png);
+  background-repeat: no-repeat;
+}
+
+.pic3 {
+  position: relative;
+  top: -60%;
+  left: 60%;
+
+  width: 545px;
+  height: 477px;
+
+  background-image: url(./pictures/5276.png);
+  background-repeat: no-repeat;
+}
+
+.mainText {
+  /* margin-bottom: 20px; */
+
+  font-family: Reey;
+  font-size: 75px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #222328;
+}
+
+.desc_2 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  font-family: "Open Sans";
+  font-size: 27.1px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #2f3135;
 }
