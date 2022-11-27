@@ -262,3 +262,152 @@ nav a {
   letter-spacing: 0.2em;
   color: #ffffff;
 }
+
+.desc_3Title {
+  margin-bottom: 1em;
+  font-family: Reey;
+  font-size: 58.4px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #f8f6f1;
+}
+
+.desc_3 {
+  font-family: Montserrat;
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #f8f6f1;
+}
+
+.bg_2 {
+  position: relative;
+  width: 1440px;
+  height: 1082px;
+  background-image: url(./pictures/5179.png);
+}
+
+.bg_3 {
+  position: relative;
+  top: -41%;
+  left: -4%;
+
+  width: 1440px;
+  height: 840px;
+
+  background-size: 94%;
+  background-repeat: no-repeat;
+  background-image: url(./pictures/5290.png);
+}
+
+.bg_4 {
+  position: relative;
+
+  top: -70%;
+  left: 30%;
+
+  width: 824px;
+  height: 829px;
+  background-image: url(./pictures/5183.png);
+}
+
+.bg_5 {
+  position: relative;
+  top: -106%;
+  left: 16%;
+
+  width: 448px;
+  height: 391px;
+  background-image: url(./pictures/5182.png);
+}
+
+.pt_4 {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.titleOther {
+  margin-bottom: 1em;
+  font-family: Reey;
+  font-size: 41.7px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #393939;
+}
+
+.textOther {
+  font-family: "Open Sans";
+  font-size: 18.8px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333d42;
+}
+
+.textDescription {
+  margin: 0 auto;
+  margin-top: 10em;
+
+  font-family: "Open Sans";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.textP {
+  margin-top: 2em;
+  font-family: "Open Sans";
+  font-size: 20.9px;
+  line-height: 33px;
+  font-weight: 700;
+  color: #3f3f3f;
+}
+
+.bgTitleHere {
+  position: relative;
+  width: 1440px;
+  height: 802px;
+  background-color: #27292c;
+}
+
+.titleHere {
+  margin-top: 3em;
+  font-family: "Open Sans";
+  font-size: 75px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.textHere {
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-family: "Open Sans";
+  font-size: 29.8px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.hereBg {
+  position: relative;
+  top: -76%;
+  left: -8%;
+  width: 1440px;
+  height: 1056px;
+  background-image: url(./pictures/5298.png);
+}
+
+.inputCenter {
+  margin: 0 auto;
+}
+
+.input::placeholder {
+  opacity: 0.67;
+  font-family: "Open Sans";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #54524f;
+}
