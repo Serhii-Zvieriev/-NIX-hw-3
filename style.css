@@ -17,7 +17,7 @@
 }
 
 header ul li {
-  margin-right: 2.5rem;
+  margin-right: 0.5rem;
 }
 
 nav a {
@@ -106,8 +106,8 @@ nav a {
 
 .pic1 {
   position: relative;
-  top: -20%;
-  left: 56%;
+  top: -10%;
+  left: 50%;
 
   width: 632px;
   height: 620px;
@@ -118,8 +118,8 @@ nav a {
 
 .pic2 {
   position: relative;
-  top: -34%;
-  left: 48%;
+  top: -18%;
+  left: 40%;
 
   width: 293px;
   height: 290px;
@@ -130,8 +130,8 @@ nav a {
 
 .pic3 {
   position: relative;
-  top: -60%;
-  left: 60%;
+  top: -56%;
+  left: 58%;
 
   width: 545px;
   height: 477px;
@@ -159,4 +159,106 @@ nav a {
   line-height: 1.2;
   font-weight: 400;
   color: #2f3135;
+}
+
+.sliderTitel {
+  font-family: "Open Sans";
+  font-size: 29.2px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #343434;
+}
+
+.sliderText {
+  font-family: "Open Sans";
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #343434;
+}
+
+.btnShowMore {
+  margin-top: 4em;
+  width: 334px;
+  height: 75px;
+  background-color: #343434;
+  border-radius: 2em;
+
+  font-family: "Open Sans";
+  font-size: 23.2px;
+  line-height: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.sectionInfo {
+  margin-top: 4em;
+  padding-top: 6em;
+  padding-bottom: 4em;
+  background-color: #27292c;
+}
+
+.infoText {
+  margin-top: 4em;
+  font-family: Montserrat;
+  font-size: 16.7px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.btnMoreInfo {
+  margin-top: 2em;
+
+  width: 270px;
+  height: 58px;
+  opacity: 0.9;
+  background-color: #fefefe;
+  border-radius: 2em;
+
+  font-family: Montserrat;
+  font-size: 26.4px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #27292c;
+}
+
+.pd {
+  padding-top: 4em;
+}
+
+.dishTitle {
+  margin-bottom: 1em;
+  font-family: "Open Sans";
+  font-size: 58.4px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #27292c;
+}
+
+.dishText {
+  margin-bottom: 1em;
+
+  font-family: "Open Sans";
+  font-size: 29.2px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #27292c;
+}
+
+.btnReadMore {
+  width: 334px;
+  height: 75px;
+  background-color: #27292c;
+  border-radius: 2em;
+
+  font-family: "Open Sans";
+  font-size: 29.2px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
 }
